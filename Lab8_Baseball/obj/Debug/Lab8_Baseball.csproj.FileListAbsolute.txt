@@ -1,0 +1,7 @@
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\obj\Debug\Lab8_Baseball.csprojResolveAssemblyReference.cache
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\obj\Debug\Lab8_Baseball.csproj.CoreCompileInputs.cache
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\bin\Debug\Lab8_Baseball.exe.config
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\bin\Debug\Lab8_Baseball.exe
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\bin\Debug\Lab8_Baseball.pdb
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\obj\Debug\Lab8_Baseball.exe
+C:\Users\jjflo\source\repos\Lab8_Baseball\Lab8_Baseball\obj\Debug\Lab8_Baseball.pdb
