@@ -66,10 +66,11 @@ namespace Lab8_Baseball
                     Console.Clear();
                 }
 
-                Hit = 0;
-                //calculate batting avg (inner loop to count hits)
+                //calculate and print stats
+                //loop starts by going into each batter (row)
                 for (int r = 0; r < Batters; r++)
                 {
+                    //loop into getting hits
                     Hit = 0;
                     for (int c = 0; c < StatSheet[r].Length; c++)
                     {
@@ -79,18 +80,14 @@ namespace Lab8_Baseball
                             Hit += 1;
                         }
                     }
-                    Console.WriteLine($"BA for Player {r + 1} is {PlayBall.CalcBattingAvg(Hit, AtBats)}");
-                }
-
-                //calculate slugging (inner loop to calculate sum of hits)
-                for (int r = 0; r < Batters; r++)
-                {
+                    //loop into summing scores
                     SlgPct = 0;
                     for (int c = 0; c < StatSheet[r].Length; c++)
                     {
                         SlgPct += StatSheet[r][c];
                     }
-                    Console.WriteLine($"SLG for Player {r + 1} is {PlayBall.CalcSlg(SlgPct, AtBats)}");
+                    //print stats for each player
+                    Console.WriteLine($"Player {r + 1}\tBA: {PlayBall.CalcBattingAvg(Hit, AtBats)}\tSLG: {PlayBall.CalcSlg(SlgPct, AtBats)}");
                 }
 
                 Console.WriteLine();
